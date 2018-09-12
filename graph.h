@@ -33,4 +33,10 @@ typedef struct
     bool directed;
 } graph_t;
 
+void init_graph(graph_t *g, bool directed);
+
+void print_graph(graph_t *g);
+
+void read_graph(graph_t *g, bool directed);
+
 #endif /* graph_h */

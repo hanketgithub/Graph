@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		367A994621490BA400B4F1DA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 367A994521490BA400B4F1DA /* main.c */; };
 		367A994F21490C5E00B4F1DA /* graph.c in Sources */ = {isa = PBXBuildFile; fileRef = 367A994E21490C5E00B4F1DA /* graph.c */; };
+		36BFEE9021491123007E59A2 /* bfs.c in Sources */ = {isa = PBXBuildFile; fileRef = 36BFEE8F21491123007E59A2 /* bfs.c */; };
+		36BFEE9321491168007E59A2 /* queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 36BFEE9221491168007E59A2 /* queue.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		367A994521490BA400B4F1DA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		367A994D21490C5E00B4F1DA /* graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
 		367A994E21490C5E00B4F1DA /* graph.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = graph.c; sourceTree = "<group>"; };
+		36BFEE8E21491123007E59A2 /* bfs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bfs.h; sourceTree = "<group>"; };
+		36BFEE8F21491123007E59A2 /* bfs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bfs.c; sourceTree = "<group>"; };
+		36BFEE9121491168007E59A2 /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		36BFEE9221491168007E59A2 /* queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = queue.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,10 @@
 		367A993921490BA400B4F1DA = {
 			isa = PBXGroup;
 			children = (
+				36BFEE9121491168007E59A2 /* queue.h */,
+				36BFEE9221491168007E59A2 /* queue.c */,
+				36BFEE8E21491123007E59A2 /* bfs.h */,
+				36BFEE8F21491123007E59A2 /* bfs.c */,
 				367A994D21490C5E00B4F1DA /* graph.h */,
 				367A994E21490C5E00B4F1DA /* graph.c */,
 				367A994521490BA400B4F1DA /* main.c */,
@@ -115,6 +125,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36BFEE9021491123007E59A2 /* bfs.c in Sources */,
+				36BFEE9321491168007E59A2 /* queue.c in Sources */,
 				367A994F21490C5E00B4F1DA /* graph.c in Sources */,
 				367A994621490BA400B4F1DA /* main.c in Sources */,
 			);

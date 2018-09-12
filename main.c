@@ -6,10 +6,18 @@
 //  Copyright © 2018 Hank Lee. All rights reserved.
 //
 
+#include <stdbool.h>
 #include <stdio.h>
 
+#include "graph.h"
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    graph_t graph = { 0 };
+    
+    read_graph(&graph, false);
+    print_graph(&graph);
+    
+    //bfs(&grpah);
+    
     return 0;
 }
